@@ -19,12 +19,6 @@ export const Nav = () => {
                     className="Link" to='/add' >Add Activity
                 </NavLink>
             </div>
-            <div>
-                <NavLink
-                    activeStyle={{ color: '#b3b3b3', fontWeight: 'bold' }}
-                    className="Link" to='/about' >About
-                </NavLink>
-            </div>
         </div>
     );
 }
